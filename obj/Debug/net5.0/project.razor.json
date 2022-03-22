@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\NVC056022\\Index.cshtml",
+      "TargetPath": "Views\\NVC056022\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\UniversityNVC56022\\Create.cshtml",
       "TargetPath": "Views\\UniversityNVC56022\\Create.cshtml",
       "FileKind": "mvc"
@@ -15639,6 +15644,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\NVC056022\\Delete.cshtml",
+      "TargetPath": "Views\\NVC056022\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\UniversityNVC56022\\Edit.cshtml",
       "TargetPath": "Views\\UniversityNVC56022\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15646,6 +15656,16 @@
     {
       "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\NVC056022\\Create.cshtml",
+      "TargetPath": "Views\\NVC056022\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\NVC056022\\Edit.cshtml",
+      "TargetPath": "Views\\NVC056022\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15666,6 +15686,11 @@
     {
       "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\UniversityNVC56022\\Index.cshtml",
       "TargetPath": "Views\\UniversityNVC56022\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\HocTap\\MaNguonMoTKT2\\NguyenVanCuong56022\\Views\\NVC056022\\Details.cshtml",
+      "TargetPath": "Views\\NVC056022\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

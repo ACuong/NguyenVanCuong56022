@@ -13,4 +13,6 @@ using NguyenVanCuong56022;
         }
 
         public DbSet<NguyenVanCuong56022.UniversityNVC56022> UniversityNVC56022 { get; set; }
+
+        public DbSet<NguyenVanCuong56022.NVC056022> NVC056022 { get; set; }
     }
