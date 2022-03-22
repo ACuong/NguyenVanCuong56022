@@ -12,6 +12,7 @@ namespace NguyenVanCuong56022.Controllers
     public class NVC056022Controller : Controller
     {
         private readonly ApplicationDBContext _context;
+        StringProcessNVC056022 StringProcessUpword = new StringProcessNVC056022();
 
         public NVC056022Controller(ApplicationDBContext context)
         {
@@ -55,6 +56,7 @@ namespace NguyenVanCuong56022.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("NVCID,NVCName,NVCGender")] NVC056022 nVC056022)
         {
+            nVC056022.NVCName = StringProcessUpword.UpWord(nVC056022.NVCName);
             if (ModelState.IsValid)
             {
                 _context.Add(nVC056022);
@@ -87,6 +89,7 @@ namespace NguyenVanCuong56022.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("NVCID,NVCName,NVCGender")] NVC056022 nVC056022)
         {
+            nVC056022.NVCName = StringProcessUpword.UpWord(nVC056022.NVCName);
             if (id != nVC056022.NVCID)
             {
                 return NotFound();
